@@ -1,0 +1,130 @@
+html, body {
+  width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background: #282828;
+}
+
+/*______________ Our Process ________________*/
+.process{
+  width:100%;
+}
+
+
+/*_____________ footer styling ________________ */
+footer{
+    position: relative;
+    width: 100%;
+    padding: 40px 10vw;
+    padding-bottom: 80px;
+    background-color:#292929;
+    text-align:justify;
+    margin-top: 3em;
+    color:#848484;
+    height:468px;
+    display:flex;
+}
+
+.footer-left{
+  width:45%;
+  height:100%;
+}
+.footer-right{
+  width:45%;
+  height:100%;
+  padding-left:30px;
+  display:flex;
+}
+.fRight-first{
+  width:45%;
+  height:100%;
+  color:#909090;
+  font-size: 21px;
+  font-family: 'Numans', sans-serif;
+  margin-top: 1em;
+}
+.fRight-second{
+  width:45%;
+  height:100%;
+  color:#909090;
+  margin-top: 1em;
+}
+
+.footer-content{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.links{
+  margin-top: 1em;
+}
+.search{
+    width: 100%;
+    display: flex;
+    margin-top:3em;
+}
+
+#searchbar{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Numans', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    text-transform: capitalize;
+    background: none;
+    color: #e2e2e2;
+    outline: none;
+    text-align:center;
+}
+
+.search-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    font-family: 'Numans', sans-serif;
+    border: none;
+    margin-left:2em;
+    outline: none;
+    cursor: pointer;
+    background: #333639;
+    color: #909090;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+#searchbar::placeholder{
+    color: #a9a9a9;
+}
+.social-images{
+  display:flex;
+  justify-content: space-between;
+  height:50px;
+  width:80%;
+  margin-top:5em;
+}
+.social-images img{
+ width:100%; 
+}
+
+
+.signup
+{
+  background-color: #55a9cf;
+  color: white;
+  margin-left: 50pt;
+  height: 40px;
+  width: 175px;
+  border-radius: 20pt;
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-family: 'Numans',sans-serif;
+
+}
